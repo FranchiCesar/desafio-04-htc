@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-tweet {
+  display: flex;
+  width: 591px;
+  background-color: #fff;
+  border: 1px solid #dadddf;
+}
+
+.profile-img {
+  padding: 17px 12px 96px 17px;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.infos-nike {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0;
+  padding: 17px 0 5px 0;
+}
+
+.profile-name {
+  display: flex;
+}
+
+.profile-name h1 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f1419;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.profile-name .info-data {
+  display: flex;
+  align-items: center;
+}
+
+.infos-nike h2 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #536471;
+}
+
+.info-data {
+  display: flex;
+  text-align: center;
+  padding-left: 8px;
+  margin: 0;
+  gap: 4px;
+}
+
+.tweet {
+  text-align: left;
+  max-width: 430px;
+  padding: 7px 0 16px 0;
+}
+
+.tweet p {
+  color: #0f1419;
+  font-size: 15px;
+}
+
+.social-section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 430px;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.comment svg {
+  width: 15px;
+  height: 13.489px;
+}
+
+.comment h3 {
+  color: #536471;
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 17px;
+}
+
+.retweet {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.retweet svg {
+  width: 15px;
+  height: 13.489px;
+}
+
+.retweet h3 {
+  color: #536471;
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 17px;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.likes svg {
+  width: 15px;
+  height: 13.489px;
+}
+
+.likes h3 {
+  color: #536471;
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 17px;
+}
+
+.share {
+  display: flex;
+  align-items: center;
+}
+
+.share svg {
+  width: 15px;
+  height: 13.489px;
+  cursor: pointer;
+}
